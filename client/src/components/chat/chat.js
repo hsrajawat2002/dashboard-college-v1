@@ -5,6 +5,7 @@ import{
 import React, { useEffect, useRef, useState } from "react";
 // import nameurl from "../nameurl";
 import "./chat.css";
+import Swal from 'sweetalert2'
 
 
 const ChatComponent=({socket})=>{
@@ -26,8 +27,17 @@ const ChatComponent=({socket})=>{
 
     const handlemessage=()=>{
         console.log("sent");
-        socket.emit("send-message",{message:data});
-        setData('');
+        if(!data){
+            Swal.fire(
+                '',
+                'Cannot Send empty message',
+                'warning'
+            );
+        }
+        else{
+            socket.emit("send-message",{message:data});
+            setData('');
+        }
     }
 
     useEffect(()=>{
