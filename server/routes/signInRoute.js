@@ -50,7 +50,7 @@ loginRouter.post("/login-user",async(req,res)=>{
             const ps = await bcrypt.compareSync(password, found.password);
             if(ps){
                 const token = jwt.sign({institute_id: found.institute_id },private_key);
-                res.cookie('token',token);
+                res.cookie('token',token,{sameSite : "none" ,secure :true});
                 res.status(200).json(found);
             }
             else{

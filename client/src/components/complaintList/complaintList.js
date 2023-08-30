@@ -21,7 +21,7 @@ export function ComplaintList(){
             headers: {
                 "Content-Type": "application/json"
             },
-            credentials : "include"
+            credentials:'include'
         }).then(res=>res.json()).then(data=>setList(data));
     }
 
