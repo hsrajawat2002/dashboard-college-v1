@@ -45,7 +45,7 @@ export function SidebarAdmin(){
         <Card className="h-screen sidebar_container p-4 w-fit">
         <div className="mb-2 p-4">
           <Typography variant="h5" color="blue-gray">
-            {adminId}
+           ADMIN ID:{adminId}
           </Typography>
         </div>
         <List>
