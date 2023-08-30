@@ -16,13 +16,13 @@ import {
   // ShoppingBagIcon,
   // UserCircleIcon,
   // Cog6ToothIcon,
-  InboxIcon,
+  // InboxIcon,
   PowerIcon,
 } from "@heroicons/react/24/solid";
 
 // import { ChevronRightIcon, ChevronDownIcon } from "@heroicons/react/24/outline";
 import { Link, useNavigate } from "react-router-dom";
-import { userLogincontext } from "../userContext/userContext";
+// import { userLogincontext } from "../userContext/userContext";
 import { AdminLogincontext } from "../adminContext/adminContext";
  
 export function SidebarAdmin(){
@@ -30,16 +30,16 @@ export function SidebarAdmin(){
   const {adminId,setAdminPresent}=useContext(AdminLogincontext);
   
   const navigate=useNavigate();
-  const [open, setOpen] = React.useState(0);
+  // const [open, setOpen] = React.useState(0);
 
-  const changeState=()=>{
-    setAdminPresent(false);
-  }
+  // const changeState=()=>{
+  //   setAdminPresent(false);
+  // }
  
  <Link to = '/' />
-  const handleOpen = (value) => {
-    setOpen(open === value ? 0 : value);
-  };
+  // const handleOpen = (value) => {
+  //   setOpen(open === value ? 0 : value);
+  // };
 
     return(
         <Card className="h-screen sidebar_container p-4 w-fit">
