@@ -1,0 +1,10 @@
+.sidebar_container{
+    width: 22vw;
+    height: 100vh;
+    background-image: url('./iitjammu_4.jpg');
+}
+
+.main_container{
+    width: 78vw;
+    height: 100vh;
+}

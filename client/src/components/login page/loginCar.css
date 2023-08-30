@@ -1,0 +1,28 @@
+.carouselDiv{
+    width: 30vw;
+    height: 100vh
+}
+
+.registerForm{
+    width:70vw;
+    height: 100vh;
+}
+
+.firstPageContainer{
+    width: 100vw;
+    height: 100vh;
+}
+
+.buttonContainer{
+    z-index: 10;
+    position: absolute;
+    width: 20vw;
+    left: 40vw;
+    right: auto;
+    bottom: 48vh;
+    
+}
+
+.button{
+    width: 110px;
+}
