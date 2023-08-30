@@ -41,7 +41,7 @@ import { urlcontext } from "../baseURLContext/urlContext";
     const handle_end = (e) => {
       setUserData((pre) => {
           return {
-              ...pre,
+              ...pre, // eslint-disable-next-line
               ["time_end_minute"]: e
           }
       })
@@ -50,8 +50,8 @@ import { urlcontext } from "../baseURLContext/urlContext";
     const handle_begin = (e) => {
       setUserData((pre) => {
           return {
-              ...pre,
-              ["time_begin_minute"]: e
+              ...pre, // eslint-disable-next-line
+              ["time_begin_minute"]: e 
           }
       })
     };
