@@ -35,7 +35,7 @@ export function UserLostAndFoundCard({itemName,lostDate,description,location_,im
 
   return (
       <div
-        className="w-72 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+        className="w-72 sm:w-fit block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
         <a href="#!">
           <img
             className="rounded-t-lg w-full h-40 object-cover"

@@ -5,8 +5,8 @@ import {
   List,
   ListItem,
   ListItemPrefix,
-  ListItemSuffix,
-  Chip,
+  // ListItemSuffix,
+  // Chip,
   Accordion,
   AccordionHeader,
   AccordionBody,
@@ -34,13 +34,13 @@ export function Sidebar({socket}){
   };
 
     return(
-        <Card className="h-screen sidebar_container p-4 w-fit">
+        <Card className="h-screen side_container p-4">
         <div className="mb-2 p-4">
           <Typography variant="h5" color="blue-gray">
             ID: {institute_id_global}
           </Typography>
         </div>
-        <List>
+        <List >
         {/* <ListItem>
             <ListItemPrefix>
               <UserCircleIcon className="h-5 w-5" />
@@ -88,9 +88,9 @@ export function Sidebar({socket}){
               <Typography color="blue-gray" className="mr-auto font-normal">
                   Lost And Found
                 </Typography>
-              <ListItemSuffix>
+              {/* <ListItemSuffix>
                 <Chip value="" size="sm" variant="ghost" color="blue-gray" className="rounded-full" />
-              </ListItemSuffix>
+              </ListItemSuffix> */}
             </ListItem>
           </Link>
 
@@ -164,9 +164,9 @@ export function Sidebar({socket}){
             <Typography color="blue-gray" className="mr-auto font-normal">
                 Discussion
               </Typography>
-            <ListItemSuffix>
+            {/* <ListItemSuffix>
               <Chip value="" size="sm" variant="ghost" color="blue-gray" className="rounded-full" />
-            </ListItemSuffix>
+            </ListItemSuffix> */}
           </ListItem>
           </Link>
 

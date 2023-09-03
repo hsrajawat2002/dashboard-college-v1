@@ -104,7 +104,7 @@ import { useNavigate } from "react-router-dom";
         <Typography variant="h4" color="blue-gray">
         Enter credentials to Login.
         </Typography>
-        <form className="mt-8 mb-2 w-80 max-w-screen-lg sm:w-96">
+        <form className="mt-8 mb-2 w-80 max-w-screen-lg sm:w-80">
           <div className="mb-4 flex flex-col gap-6">
             <Input size="lg" label="Admin ID" value={userData.admin_id} name="admin_id" onChange={handleChange}/>
             <Input type="password" size="lg" label="Password" value={userData.password} name="password" onChange={handleChange} />

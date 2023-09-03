@@ -7,7 +7,7 @@ export function AdminLogin(){
 
   return (
     <div className='flex justify-center items-center'>
-        <CarouselCustomNavigation/>
+        <div className='sm:hidden'><CarouselCustomNavigation/></div>
         <AdminLoginForm/>
     </div>  
     )

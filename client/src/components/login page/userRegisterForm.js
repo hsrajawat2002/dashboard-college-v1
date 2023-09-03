@@ -129,7 +129,7 @@ import { urlcontext } from "../baseURLContext/urlContext";
         <Typography color="gray" className="mt-1 font-normal">
           Enter your details to register.
         </Typography>
-        <form className="mt-8 mb-2 w-80 max-w-screen-lg sm:w-96">
+        <form className="mt-8 mb-2 w-80 max-w-screen-lg sm:w-80">
           <div className="mb-4 flex flex-col gap-6">
             <Input required size="lg" label="First Name" name="first_name" value={userData.first_name} onChange={handleChange} />
             <Input required size="lg" label="Last Name" name="last_name" value={userData.last_name} onChange={handleChange} />

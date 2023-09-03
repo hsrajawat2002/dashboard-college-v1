@@ -13,7 +13,7 @@ export function Login(){
 
   return (
     <div className='flex justify-center items-center'>
-        <CarouselCustomNavigation/>
+        <div className='sm:hidden'><CarouselCustomNavigation/></div>
         {loginVar?<SimpleRegistrationForm handleClick={handleClick}/>:<LoginRegistrationForm handleClick={handleClick}/>}
     </div>  
     )
