@@ -10,7 +10,7 @@
 	
 	student 1							student 2
 	name: ayush singh					name: arti shukla
-	institude id: 2020uee0998		institute id: 2020uee0999
+	institude id: 2020uee0998		    institute id: 2020uee0999
 	password: helloworld				password: programming
 
 2> for testing the admin:
@@ -20,6 +20,6 @@
 		
 		admin 1									admin 2
 		id: 12345								id:66214
-		password: bingo						password: hello
+		password: bingo						    password: hello
 
 	
